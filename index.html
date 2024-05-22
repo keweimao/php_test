@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>One Page Application</title>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" type="text/css" href="email.css"> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Product Management</h1>
+        Name: <input type="text" id="productName"><br>
+        Category: 
+        <select id="catId">
+            <option value="1">Guitar</option>
+            <option value="2">Violin</option>
+            <option value="3">Piano</option>
+        </select><br>
+        Price: <input type="text" id="listPrice"><br>
+        <button type="button" id="addRecord">Add Record to Database</button><br>
+        Status: <span id="status">Number of records successfully inserted...</span>
+
+        <br>
+        <hr>
+        <button type="button" id="btnReload">Reload All Records</button><br>
+        <ol id="list">
+        </ol>
+    </body>
+</html>
